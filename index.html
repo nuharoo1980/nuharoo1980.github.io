@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Web de excursiones relacionadas con el cine. Nuestra filosofía viajera consiste en ofrecer un modelo de viaje alternativo, cercano y más humano.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Films&Trip Bcn</title>
+    <script src="https://kit.fontawesome.com/69f6b2ddc1.js"></script>
+    <link href="css/estilos.css" rel="stylesheet">
+    <link rel=" icon" href="img/logofavicon.ico" type="image/ico" sizes="32x32">
+</head>
+
+<body>
+    <header>
+
+        <div class="topnav">
+            <a href="index.html" class="active"><img src="img/logo.jpg" alt="logo"></a>
+            <div id="myLinks">
+                <a href="submenu.html">Rutas</a>
+                <a href="reservas.html">Reservas</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="menuhamburguesa()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+
+    </header>
+
+    <h1 class="lema"><q>Un viaje de mil millas comienza con un primer paso(Lao-Tse)</q></h1>
+    <div class="container">
+        <div class="empresa">
+            <h2>¿Quiénes somos?</h2>
+            <p>Somos una empresa que nace el 1 de Mayo de 2018 con el firme propósito de convertir las excursiones
+                convencionales en excursiones especiales.</p><br>
+            <p>Sabemos que hay muchos apasionados del cine con ganas de recorrer sus escenarios (actualmente solo en
+                Cataluña).</p><br>
+            <p> Nuestra misión es unirlos a todos en una comunidad viajera y llevarles a los sitios donde se rodaron
+                algunas de estas peliculas, con la gente con la que siempre quisieron ir.</p>
+            <p>En <b>Films&Trips</b> nos esmeramos día a día en organizar las mejores excursiones posibles para
+                personascomo tú.</p><br>
+            <p>Somos un equipo de 8 personas a tu servicio, mejorando cada día en busca de la excelencia.</p>
+            <p>Si hay algún escenario de pelicula que siempre has querido ver pero nunca lo has hecho porque no has
+                encontrado gente para ir o porque era complicado de organizar, o simplemente porque nunca has podido
+                aunque te hubiera gustado hacerlo, por favor ¡ponte en contacto con nosotros y cuéntanoslo!</p><br>
+        </div>
+    </div>
+    <!-- footer en la pagina de inicio -->
+
+    <footer>
+
+
+
+            <section id="newsletter">
+                <div class="container">
+                    <h2>Newsletter</h2>
+                    <p>Únete a nuestra newsletter para recibir las últimas noticias, actividad y saber más sobre nuestras
+                        ofertas.</p>
+                    <form action="enviar.html" method="POST" id="formulario">
+                        <div class=newsletter>
+                            <ul>
+                                <li><label class="visuallyhidden" for="correo">email</label>
+                                <li><input type="email" name="correo" value="" id="correo" placeholder="introduce tu email"
+                                    onchange="politica(this.id)">
+                                </li>
+                            </ul>
+                            <!--<li>
+                                <input type="checkbox" name="privacidad" id="privacidad" value="privacidad">
+                                <small>Acepta <a href="">política de privacidad</a></small>
+                            </li>-->
+    
+                            <div id="politica">
+                                <p>Al incluir tu correo aceptas recibir comunicaciones personalizadas adaptadas a tu
+                                    perfil como cliente. Ten en cuenta que podrás oponerte a este tratamiento.</p>
+    
+                                <p><small>INFORMACIÓN BÁSICA SOBRE PROTECCIÓN DE DATOS. RESPONSABLE: Films&Trips.
+                                        FINALIDAD: Gestión del servicio de envío de comunicaciones personalizadas
+                                        adaptadas al perfil del interesado. LEGITIMACIÓN: Consentimiento del interesado.
+                                        DESTINATARIOS: Films&Trips. DERECHOS: Puedes ejercitar en cualquier momento tus
+                                        derechos de acceso, rectificación, supresión, oposición y demás derechos
+                                        legalmente establecidos a través del siguiente e-mail: info@filmstrips.com.
+                                        INFORMACIÓN ADICIONAL: Puedes consultar la información adicional y detallada
+                                        sobre protección de datos <a href="">aquí</a>.</small></p>
+    
+                                <ul>
+                                    <li>
+                                        <input type="submit" value="Enviar" class="newsletterboton">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+    
+    
+    
+                    </form>
+    
+    
+                </div>
+    
+    
+    
+            </section>
+    
+            <section>
+                <h2 class="invisible"></h2>
+                <div class="container">
+    
+                    <ul>
+                        <li><a href="terminosycondiciones.html">Terminos y Condiciones</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="politicaprivacidad.html">Politica de privacidad</a></li>
+                    </ul>
+    
+    
+                    <ul class="redessociales">
+                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                    <p>&copy; 2019.Todos los derechos reservados. Films&Trips. S.L. Licencia de
+                        Agencia de
+                        viajes 2503</p>
+
+                    </div>
+    
+            </section>
+        </footer>
+
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_es.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
